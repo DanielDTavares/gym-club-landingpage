@@ -1,0 +1,127 @@
+body {
+    background-image: url(../img/assets-cached.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+header {
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 1.5px rgb(62, 62, 62));
+    color: white;
+    justify-content: center;
+    text-align: center;
+    transform: translate(5%, 230%);
+}
+
+.one {
+    display: flex;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transform: translate(0%, 30%);
+}
+
+footer p {
+    transform: translate(5%, 490px);
+}
+
+a {
+    text-decoration: none !important; /* Remove a decoração padrão do link */
+    color: white !important; /* Define a cor do texto como branco */
+}
+
+.info {
+    color: white;
+    transform: translate(125%, 300px);
+}
+
+.info h2 {
+    font-size: 25px;
+}
+
+.info p {
+    cursor: pointer;
+    width: 100%;
+    height: 85%;
+    font-size: 120%;
+    background-color: rgba(0, 0, 0, 0.437);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.37);
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(0%, 5%);
+}
+
+.info-2 {
+    color: white;
+    transform: translate(335%, 290px);
+}
+
+.info-2 h2 {
+    transform: translate(6%);
+    font-size: 25px;
+}
+
+.info-2 p {
+    cursor: pointer;
+    width: 115%;
+    height: 87%;
+    font-size: 125%;
+    background-color: rgba(0, 0, 0, 0.437);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.37);
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(0%, 5%);
+}
+
+.forms {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transform: translate(23%, 120%);
+}
+
+.forms img{
+    width: 55%;
+    filter: drop-shadow(6px 6px px #000000);
+    transform: translate(-10%, -10%);
+    transition: transform 0.5s ease !important; /* Suaviza a transição do zoom */
+}
+
+.forms img:hover {
+    transform: scale(1.1) !important; /* Aplica o efeito de zoom */
+}
+
+.forms .conteiner-div-1 {
+    backdrop-filter: blur(1px);
+    color: white;
+    box-shadow: +1px -1px 2px rgba(255, 255, 255, 0.37);
+    border-radius: 8px;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    transform: translate(5%, -70%);
+}
+
+.forms .conteiner-div {
+    backdrop-filter: blur(1px);
+    color: white;
+    box-shadow: -1px +2px 2px rgba(255, 255, 255, 0.37);
+    border-radius: 8px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transform: translate(-5%, 55%);
+}
+
+.forms span {
+    color: rgba(0, 0, 0, 0.827) !important;
+}
+
+.gym {
+    width: 27%;
+    transform: translate(-60%, 60%);
+}
